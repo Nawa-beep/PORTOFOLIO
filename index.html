@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio | Mahasiswa Informatika</title>
+  <meta name="description" content="Website portofolio pribadi mahasiswa Informatika.">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo">my<span>portfolio.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Buka menu navigasi" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#skills">What I Can Do</a>
+      <a href="#achievement">Achievement</a>
+      <a href="#contact" class="nav-contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-text">
+        <span class="eyebrow">✿ Welcome to my little space</span>
+        <p class="intro">Hello, I'm</p>
+        <h1>Nawa Alfiona Haq<br>
+          <span>Informatics Student.</span>
+        </h1>
+        <p class="hero-desc">
+          Mahasiswa Informatika yang sedang belajar, berkembang,
+          dan mengeksplorasi dunia teknologi untuk menciptakan
+          hal-hal yang bermanfaat.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#about" class="btn primary">Kenali Aku ✿</a>
+          <a href="#contact" class="btn secondary">Hubungi Aku</a>
+        </div>
+
+        <p class="small-note">Learning today, growing every day ♡</p>
+      </div>
+
+      <div class="hero-art">
+        <div class="decor decor-one">✿</div>
+        <div class="decor decor-two">♡</div>
+        <div class="profile-card">
+          <div class="profile-icon">୨୧</div>
+          <div class="avatar-placeholder">☁</div>
+          <h3>Nawa Alfiona Haq</h3>
+          <p>Informatics Student</p>
+          <span class="mini-tag">Currently growing ✨</span>
+        </div>
+        <div class="floating-note">little steps,<br>big dreams ♡</div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <span class="eyebrow">01 — Get to know me</span>
+        <h2>About <span>Me</span></h2>
+        <p>A little introduction about myself.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <h3>Halo, senang bertemu denganmu! ♡</h3>
+          <p>
+            Aku adalah mahasiswa Program Studi Informatika yang
+            memiliki semangat untuk terus belajar dan mengembangkan
+            kemampuan di bidang teknologi. Saat ini, aku sedang
+            membangun dasar pengetahuan dalam dunia pemrograman
+            dan pengembangan website.
+          </p>
+          <p>
+            Bagiku, setiap proses belajar adalah kesempatan untuk
+            mencoba hal baru, memperbaiki diri, dan menghasilkan
+            karya yang lebih baik.
+          </p>
+        </div>
+
+        <div class="info-card">
+          <h3>Personal Information</h3>
+          <div class="info-item">
+            <span>Nama</span>
+            <strong>Nawa Alfiona Haq</strong>
+          </div>
+          <div class="info-item">
+            <span>NIM</span>
+            <strong>26051214222</strong>
+          </div>
+          <div class="info-item">
+            <span>Program Studi</span>
+            <strong>Informatika</strong>
+          </div>
+          <div class="info-item">
+            <span>Universitas</span>
+            <strong>Universitas Negeri Surabaya</strong>
+          </div>
+          <div class="info-item">
+            <span>Fokus saat ini</span>
+            <strong>Belajar teknologi</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT I CAN DO -->
+    <section class="section skills-section" id="skills">
+      <div class="section-heading">
+        <span class="eyebrow">02 — My growing abilities</span>
+        <h2>What I Can <span>Do</span></h2>
+        <p>Kemampuan yang sedang aku pelajari dan kembangkan.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card pink">
+          <div class="skill-icon">⌨</div>
+          <h3>Basic Programming</h3>
+          <p>Mempelajari dasar logika pemrograman dan penyelesaian masalah.</p>
+          <span class="skill-label">Learning</span>
+        </article>
+
+        <article class="skill-card purple">
+          <div class="skill-icon">✧</div>
+          <h3>Web Development</h3>
+          <p>Mengenal struktur halaman dan proses pembuatan website sederhana.</p>
+          <span class="skill-label">Learning</span>
+        </article>
+
+        <article class="skill-card yellow">
+          <div class="skill-icon">▤</div>
+          <h3>Microsoft Office</h3>
+          <p>Mengolah dokumen dan menyusun tugas perkuliahan.</p>
+          <span class="skill-label">Basic</span>
+        </article>
+
+        <article class="skill-card green">
+          <div class="skill-icon">♡</div>
+          <h3>Teamwork</h3>
+          <p>Belajar bekerja sama, berdiskusi, dan menyelesaikan tugas kelompok.</p>
+          <span class="skill-label">Developing</span>
+        </article>
+      </div>
+      <p class="section-footnote">
+        Catatan: sesuaikan daftar kemampuan ini dengan kemampuanmu yang sebenarnya.
+      </p>
+    </section>
+
+    <!-- ACHIEVEMENT -->
+    <section class="section achievement-section" id="achievement">
+      <div class="section-heading">
+        <span class="eyebrow">03 — My journey</span>
+        <h2>Achievement & <span>Projects</span></h2>
+        <p>Perjalanan belajar dan karya yang ingin terus kukembangkan.</p>
+      </div>
+
+      <div class="achievement-grid">
+        <article class="project-card">
+          <div class="project-top project-pink">✿</div>
+          <div class="project-content">
+            <span class="project-type">Learning Project</span>
+            <h3>Personal Portfolio Website</h3>
+            <p>
+              Website portofolio sederhana untuk memperkenalkan diri,
+              menampilkan kemampuan, dan mendokumentasikan proses belajar.
+            </p>
+            <span class="project-status">Sedang dikembangkan</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top project-purple">⌘</div>
+          <div class="project-content">
+            <span class="project-type">Academic Journey</span>
+            <h3>Informatics Learning Journey</h3>
+            <p>
+              Dokumentasi pembelajaran dan tugas perkuliahan yang
+              membantu mengembangkan pengetahuan di bidang Informatika.
+            </p>
+            <span class="project-status">Proses belajar</span>
+          </div>
+        </article>
+      </div>
+      <p class="section-footnote">
+        Bagian ini dapat diperbarui dengan prestasi, sertifikat,
+        atau proyek yang benar-benar pernah kamu kerjakan.
+      </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="contact-box">
+        <span class="eyebrow">04 — Let's connect</span>
+        <h2>Let's create something <span>meaningful.</span></h2>
+        <p>
+          Terima kasih sudah mengunjungi portofolioku.
+          Aku terbuka untuk belajar, berbagi ide, dan berkolaborasi.
+        </p>
+
+        <a class="btn primary" id="emailButton"
+           href="mailto:nawaalfiona@gmail.com">
+          ✉ Email Me
+        </a>
+
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank"
+             rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank"
+             rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+        <p class="section-footnote">
+          Ganti tautan di atas dengan akun pribadimu jika tersedia.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ♡ and a little bit of code.</p>
+    <p>© <span id="year"></span> Nawa Alfiona Haq · Informatika</p>
+  </footer>
+
+</body>
+</html>
